@@ -7,8 +7,8 @@ export const content = {
     email: "linn.linnhtetaung1@gmail.com",
     phone: "+66814106162",
     location: "Chiang Mai, Thailand",
-    linkedin: "https://linkedin.com",
-    github: "https://github.com",
+    linkedin: "https://www.linkedin.com/in/linnhtetaung12/",
+    github: "https://github.com/Linn-ds",
   },
   stack: [
     {
