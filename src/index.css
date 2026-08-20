@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", system-ui, sans-serif;
+  --color-surface: var(--surface);
+  --color-surface-muted: var(--surface-muted);
+  --color-content: var(--content);
+  --color-content-muted: var(--content-muted);
+  --color-border-line: var(--border-line);
+  --color-border-hover: var(--border-hover);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --surface: #fbfbf9; /* warm alabaster */
+  --surface-muted: #f2f2ef; /* soft stone */
+  --content: #1a1a19; /* deep charcoal */
+  --content-muted: #73736f; /* warm grey */
+  --border-line: #e6e6e2; /* subtle edge */
+  --border-hover: #b8b8b3; /* interactive edge */
+}
+
+.dark {
+  --surface: #09090b; /* zinc-950 */
+  --surface-muted: #18181b; /* zinc-900 */
+  --content: #fafafa; /* zinc-50 */
+  --content-muted: #a1a1aa; /* zinc-400 */
+  --border-line: #27272a; /* zinc-800 */
+  --border-hover: #52525b; /* zinc-600 */
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--content);
+  overflow-x: hidden;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+/* Hide scrollbar for IE, Edge and Firefox */
+.no-scrollbar {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}

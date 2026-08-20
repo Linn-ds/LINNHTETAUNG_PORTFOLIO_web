@@ -1,0 +1,6 @@
+{
+  "name": "Modern Portfolio",
+  "description": "A modern, premium portfolio for Linn Htet Aung targeting university admissions and recruiters.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
